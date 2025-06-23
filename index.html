@@ -10,11 +10,40 @@
     <div class="left-panel">
         <div class="logo-panel">
             <img src="./assets/odin-lined.png" class="odin-logo">
-            Odin
+            <span class="logo-text">Odin</span>
         </div>
+        <span class="img-credit">Photo by Halie West on Unsplash</span>
     </div>
     <div class="right-container">
+        <span class="top-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.<br><br>You <em>know</em> you want to.</span>
+        <div class="form-section">
+            <span class="form-text">Let's do this!</span>
+            <form id="signup-form" action="index.html" method="post">
+                <fieldset>
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" name="first_name">
 
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" name="last_name">
+                </fieldset>
+                <fieldset>
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                </fieldset>
+                <fieldset>
+                    <label for="user_password">PASSWORD</label>
+                    <input type="password" id="user_password" name="password">
+
+                    <label for="user_password">CONFIRM PASSWORD</label>
+                    <input type="password" id="user_password" name="password">
+                </fieldset>
+            </form>
+        </div>
+        <button form="signup-form" type="submit">Create Account</button>
+        <span class="bottom-text">Already have an account? <span class="login">Log in</span></span>
     </div>
 </body>
 </html>
