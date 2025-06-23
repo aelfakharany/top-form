@@ -57,12 +57,13 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(247, 247, 247);
-    padding-right: 5rem;
-    padding-left: 3rem;
+    padding: 6rem 5rem 0 3rem;
+    position: relative;
 }
 
 .top-text, .form-text {
     font-family: sans-serif;
+    font-weight: 500;
 }
 
 .top-third {
@@ -72,11 +73,15 @@ body {
 }
 
 .form-section {
-    height: 30vw;
-    padding: 2rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+    width: 100%;
+    margin: 3rem 0 0 -3rem;
 }
 
 button {
+    margin: 2rem 0 2rem 0;
     padding: 0.5rem 2rem;
+    align-self: flex-start; 
+    width: auto;            
 }
